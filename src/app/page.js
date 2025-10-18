@@ -98,7 +98,7 @@ export default function LandingPage() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <a 
-              href="https://marketplace.visualstudio.com/items?itemName=DirCraft"
+              href="https://marketplace.visualstudio.com/items?itemName=FolderStructureGenerator.DirCraft"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative px-8 py-4 bg-gradient-to-r from-purple-600 to-cyan-600 rounded-full font-bold text-lg overflow-hidden transition-all hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/50"
