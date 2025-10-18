@@ -1,6 +1,6 @@
 import { Inter, Space_Grotesk, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
-
+import { Analytics } from '@vercel/analytics/next';
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
@@ -78,6 +78,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className={`${inter.variable} ${spaceGrotesk.variable} ${jetbrainsMono.variable} antialiased`}>
         {children}
+         <Analytics />
       </body>
     </html>
   );
